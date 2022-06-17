@@ -1,0 +1,75 @@
+.anim-footer-appear {
+    animation-name: footer-appear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.anim-footer-close {
+    animation-name: footer-close;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes footer-appear {
+    from {
+       bottom: -220px;
+    }
+
+    to {
+        bottom: 0px;
+    }
+}
+
+@keyframes footer-close {
+    from {
+       bottom: 0px;
+    }
+
+    to {
+        bottom: -220px;
+    }
+}
+
+.anim-menu-appear {
+    animation-name: menu-appear;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.anim-menu-close {
+    animation-name: menu-close;
+    animation-duration: .3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu-appear {
+    from {
+       left: -100%;
+    }
+
+    to {
+       left: 0;
+    }
+}
+
+@keyframes menu-close {
+    from {
+       transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
