@@ -1,2 +1,2 @@
 # AndManga
-<p>Site Angolano para <strong>ler Mangá </strong></p>
+<p>Site para <strong>ler Mangá </strong> online.</p>
